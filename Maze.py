@@ -1,4 +1,4 @@
-import GridViewer
+import Viewer
 
 EMPTY = 0
 WALL = 1
@@ -26,7 +26,7 @@ if __name__ == "__main__":
     for i in range(len(grid)):
         for j in range(len(grid[i])):
             
-            GridViewer.view(grid)
+            Viewer.view(grid)
             
         print()
 
@@ -97,6 +97,6 @@ if __name__ == "__main__":
     for i in range(len(grid)):
         for j in range(len(grid[i])):
             
-            GridViewer.view(grid)
+            Viewer.view(grid)
             
         print()
